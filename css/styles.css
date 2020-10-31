@@ -1,0 +1,43 @@
+body {
+  background-color: #f5f8fd;
+}
+.header {
+  background: #1bb1dc;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 15px 35px;
+  box-shadow: 0 0 30px rgba(127, 137, 161, 0.3);
+}
+.logo {
+  align-self: center;
+  height: 45px;
+  width: 150px;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+.search-and-icon {
+  align-self: center;
+  display: flex;
+}
+.search-and-icon .search {
+  margin-right: 10px;
+  align-self: center;
+}
+.container {
+  padding: 25px 15px;
+}
+.img-products {
+  border-radius: 15px;
+  margin: 25px;
+  box-shadow: 0 3px 0 0 rgba(65, 62, 102, 0.08);
+  transition: all 0.3s ease-in-out;
+  padding: 35px 0;
+  background: #fff;
+}
+.img-products:hover {
+  box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+}
